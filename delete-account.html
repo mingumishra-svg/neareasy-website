@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - NearEasy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg: #0B1220;
+            --card: #141C2B;
+            --accent: #7C5CFF;
+            --text: #FFFFFF;
+            --muted: rgba(255,255,255,0.65);
+            --danger: #FF5C5C;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+        header {
+            margin-bottom: 40px;
+        }
+        .back-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 14px;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 24px 0;
+        }
+        .updated {
+            color: var(--muted);
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 22px;
+            margin: 32px 0 16px;
+            color: var(--accent);
+        }
+        p, li {
+            color: var(--muted);
+            margin-bottom: 16px;
+        }
+        ul, ol {
+            padding-left: 24px;
+        }
+        ol li {
+            margin-bottom: 12px;
+        }
+        .card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+        .warning-card {
+            background: rgba(255, 92, 92, 0.1);
+            border: 1px solid var(--danger);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+        .warning-card h3 {
+            color: var(--danger);
+            margin-bottom: 12px;
+        }
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: var(--accent);
+            color: white;
+            border-radius: 50%;
+            font-weight: 600;
+            font-size: 14px;
+            margin-right: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .step-content {
+            flex: 1;
+        }
+        .step-content strong {
+            color: var(--text);
+        }
+        .contact-card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 24px 0;
+            text-align: center;
+        }
+        .contact-card a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">← Back to Home</a>
+            <h1>Delete Your Account</h1>
+            <p class="updated">NearEasy - Account Deletion</p>
+        </header>
+
+        <p>We're sorry to see you go. This page explains how to delete your NearEasy account and what data will be removed.</p>
+
+        <h2>How to Delete Your Account</h2>
+
+        <div class="card">
+            <p><strong>You can delete your account directly from the NearEasy app:</strong></p>
+
+            <div style="margin-top: 20px;">
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <div class="step-content">
+                        <strong>Open NearEasy app</strong>
+                        <p style="margin-top: 4px; margin-bottom: 0;">Launch the NearEasy app on your phone</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <div class="step-content">
+                        <strong>Go to Settings</strong>
+                        <p style="margin-top: 4px; margin-bottom: 0;">Tap on the Settings icon (gear icon) in the app</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <div class="step-content">
+                        <strong>Tap "Delete Account"</strong>
+                        <p style="margin-top: 4px; margin-bottom: 0;">Scroll down and tap on the "Delete Account" button</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <div class="step-content">
+                        <strong>Confirm Deletion</strong>
+                        <p style="margin-top: 4px; margin-bottom: 0;">Confirm your choice when prompted. Your account will be permanently deleted.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>What Data Will Be Deleted?</h2>
+
+        <div class="card">
+            <p><strong>The following data will be permanently deleted:</strong></p>
+            <ul style="margin-top: 12px;">
+                <li>Your account profile (name, email, phone number)</li>
+                <li>Your authentication credentials</li>
+                <li>Your call history logs stored in our database</li>
+                <li>Any preferences or settings associated with your account</li>
+            </ul>
+        </div>
+
+        <div class="warning-card">
+            <h3>Important Notice</h3>
+            <ul>
+                <li>Account deletion is <strong>permanent and cannot be undone</strong></li>
+                <li>You will need to create a new account if you wish to use NearEasy again</li>
+                <li>Deletion is processed immediately</li>
+            </ul>
+        </div>
+
+        <h2>Data Retention</h2>
+        <p>After account deletion:</p>
+        <ul>
+            <li><strong>Immediately deleted:</strong> Profile data, authentication info, call logs</li>
+            <li><strong>Anonymous analytics:</strong> Previously collected anonymous usage data may be retained for service improvement but cannot be linked to you</li>
+        </ul>
+
+        <h2>Need Help?</h2>
+
+        <div class="contact-card">
+            <p>If you're having trouble deleting your account or have questions, please contact us:</p>
+            <p style="margin-top: 16px; margin-bottom: 0;">
+                <a href="mailto:shailvee.dev@gmail.com">shailvee.dev@gmail.com</a>
+            </p>
+        </div>
+
+        <p style="margin-top: 40px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 14px;">
+            <a href="privacy.html" style="color: var(--accent);">Privacy Policy</a> ·
+            <a href="terms.html" style="color: var(--accent);">Terms of Service</a>
+        </p>
+    </div>
+</body>
+</html>
