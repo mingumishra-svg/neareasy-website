@@ -19,15 +19,15 @@ neareasy-website/
 1. Create repo: `neareasy-website`
 2. Push these files
 3. Settings > Pages > Enable
-4. Custom domain: `neareasy.app`
+4. Custom domain: `neareasy.org`
 
 ### Option 2: Netlify (Free)
 1. Drag & drop folder to netlify.com
-2. Set custom domain: `neareasy.app`
+2. Set custom domain: `neareasy.org`
 
 ### Option 3: Vercel (Free)
 1. Import from GitHub
-2. Set custom domain: `neareasy.app`
+2. Set custom domain: `neareasy.org`
 
 ### Option 4: Firebase Hosting (Free)
 ```bash
@@ -39,7 +39,7 @@ firebase deploy
 
 ## Domain Setup
 
-1. **Buy domain:** neareasy.app (Google Domains, Namecheap, etc.)
+1. **Buy domain:** neareasy.org (Google Domains, Namecheap, etc.)
 
 2. **DNS Settings:**
    - For GitHub Pages:
@@ -74,12 +74,12 @@ Replace `YOUR_SHA256_FINGERPRINT_HERE` with your actual SHA256 fingerprint.
 
 ### Verify
 After hosting, verify at:
-https://digitalassetlinks.googleapis.com/v1/statements:list?source.web.site=https://neareasy.app&relation=delegate_permission/common.handle_all_urls
+https://digitalassetlinks.googleapis.com/v1/statements:list?source.web.site=https://neareasy.org&relation=delegate_permission/common.handle_all_urls
 
 ## Play Store Link
 Update `index.html` with actual Play Store link once published:
 ```
-https://play.google.com/store/apps/details?id=com.amit.nearesthotels
+https://play.google.com/store/apps/details?id=com.amit.nearesthotels&hl=en_IN&gl=IN&referrer=utm_source%3Dneareasy_org%26utm_medium%3Dwebsite%26utm_campaign%3Dplay_store_launch
 ```
 
 ## SEO Checklist
